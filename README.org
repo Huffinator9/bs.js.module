@@ -2,20 +2,20 @@
 
 ** Responsiveness and Layout:
    --Use Bootstrap containers (container or container-fluid) to structure the layout.
-   --Ensure that all components are responsive across different screen sizes using media queries and Bootstrap utilities.
+   --Ensure that all components are responsive
 
 ** Responsive Navigation Bar:
-   --Build a navbar with links to Home, About, and Contact sections.
-   --Ensure the navbar collapses into a hamburger menu on smaller screens.
-   --Use Bootstrap utilities and components to style the navbar.
+   *** Build a navbar with links to Home, About, and Contact sections.
+   *** Ensure the navbar collapses into a hamburger menu on smaller screens.
+   *** Use Bootstrap utilities and components to style the navbar.
 
 ** Form Creation and Layout:
-   --First Name -- Last Name
-      --Apply Bootstrap grid layout to position the First Name and Last Name fields side-by-side.
-   --Email -- Password
-      --Use validation classes to ensure the Email and Password fields are required.
-   --checkbox for agreeing to terms
-      --Add a submit button styled with btn-success.
+   *** First Name -- Last Name
+      *** Apply Bootstrap grid layout to position the First Name and Last Name fields side-by-side.
+   *** Email -- Password
+      *** Use validation classes to ensure the Email and Password fields are required.
+   *** checkbox for agreeing to terms
+      *** Add a submit button styled with btn-success.
 
 ** Table for Displaying Data:
    --Create a Bootstrap table to display user data.
@@ -32,7 +32,7 @@
    --The second button should be hidden on small screens using responsive utilities (d-none and d-md-block).
 
 
-
+   
 * 📤 Submission Guidelines
 
 ** GitHub Repository:
@@ -54,3 +54,4 @@
 
 ** Bonus Consideration:
    --Use code comments to highlight bonus features, making them easy to identify during grading.
+   
