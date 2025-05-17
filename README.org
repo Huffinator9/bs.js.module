@@ -1,8 +1,8 @@
 * 📋 Project Requirements
 
 ** Responsiveness and Layout:
-   --Use Bootstrap containers (container or container-fluid) to structure the layout.
-   --Ensure that all components are responsive
+   ***Use Bootstrap containers (container or container-fluid) to structure the layout.
+   ***Ensure that all components are responsive
 
 ** Responsive Navigation Bar:
    *** Build a navbar with links to Home, About, and Contact sections.
@@ -28,30 +28,30 @@
    ***Below the main image, add a circular image (rounded-circle).
 
 ** Create two buttons:
-   --One button should be visible on all screen sizes.
-   --The second button should be hidden on small screens using responsive utilities (d-none and d-md-block).
+   ***One button should be visible on all screen sizes.
+   ***The second button should be hidden on small screens using responsive utilities (d-none and d-md-block).
 
 
-
+   
 * 📤 Submission Guidelines
 
 ** GitHub Repository:
-   --Create a GitHub repository for this assignment.
-   --Add your HTML file and any supporting CSS or images to the repository.
-   --Include a README.md file with a brief description of your project, outlining key features and components used.
+   ***Create a GitHub repository for this assignment.
+   ***Add your HTML file and any supporting CSS or images to the repository.
+   ***Include a README.md file with a brief description of your project, outlining key features and components used.
 
 ** Testing:
-   --Verify that the navbar collapses correctly on smaller screens.
-   --Ensure all buttons, images, forms, and tables are styled as required.
-   --Check that the page renders properly across devices and browsers.
+   ***Verify that the navbar collapses correctly on smaller screens.
+   ***Ensure all buttons, images, forms, and tables are styled as required.
+   ***Check that the page renders properly across devices and browsers.
 
 ** File Structure:
-   --Ensure all files are organized and named appropriately.
-   --Place your HTML file at the root of the repository and organize any images or assets in appropriate folders.
+   ***Ensure all files are organized and named appropriately.
+   ***Place your HTML file at the root of the repository and organize any images or assets in appropriate folders.
 
 ** Submission:
-   --Submit the GitHub repository link in Google Classroom.
+   ***Submit the GitHub repository link in Google Classroom.
 
 ** Bonus Consideration:
-   --Use code comments to highlight bonus features, making them easy to identify during grading.
+   ***Use code comments to highlight bonus features, making them easy to identify during grading.
    
