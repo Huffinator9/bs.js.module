@@ -6,8 +6,7 @@
     <title>Bootstrap Knowledge Check</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   </head>
-  <body>
-    
+  <body class="bg-light">
     <header>
       <!-- Navbar -->
       <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -26,35 +25,70 @@
 	</div>
       </nav>
     </header>
-    
     <main>
       <!-- Images -->
       <div class="container-fluid">
-	<img src
+	<img src="assets/imgs/wallpaper.png" class="img-fluid" alt="botw logo">
+	<img src="assets/imgs/botw.logo.combined.png" class="rounded-circle img-fluid" alt="botw logo">
+      </div>
       <!-- Form -->
-      <div class="container mt-5 pt-5">
+      <div class="container mt-3 pt-3">
 	<h2 class="text-center text-primary">Register</h2>
 	<form class="border p-4 shadow-sm bg-light">
 	  <div class="row">
 	    <div class="container col-6">
-              <input type="text" class="form-control mb-3" placeholder="First Name">
+              <input type="text" class="form-control mb-3 bg-light" placeholder="First Name">
 	    </div>
 	    <div class="container col-6">
-              <input type="text" class="form-control mb-3" placeholder="Last Name">
+              <input type="text" class="form-control mb-3 bg-light" placeholder="Last Name">
 	    </div>
 	  </div>
-          <input type="email" class="form-control mb-3" placeholder="Email" required>
-          <input type="password" class="form-control mb-3" placeholder="Password" required>
+          <input type="email" class="form-control mb-3 bg-light" placeholder="Email" required>
+          <input type="password" class="form-control mb-3 bg-light" placeholder="Password" required>
 	  <div class="form-check mb-3">
 	    <input class="form-check-input" type="checkbox" id="terms" name="terms" value="terms" required>
-	    <label class="form-check-label">I have read and agree to the <a href="terms">Terms</a>.</label>
+	    <label class="form-check-label bg-light">I have read and agree to the <a href="terms">Terms</a>.</label>
 	  </div>
           <button class="btn btn-success w-100">Submit</button>
 	</form>
       </div>
       <!-- Table -->
-      <div>
+      <div class="table-responsive pt-3">
+	<table class="table table-light table-striped table-hover">
+	  <thead>
+	    <tr>
+	      <th colspan=3>Registered Users</th>
+	    </tr>
+	    <tr>
+	      <th>FirstName</th>
+	      <th>LastName</th>
+	      <th>Email</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    <tr>
+	      <td>Chris</td>
+	      <td>Huffer</td>
+	      <td>chris.huffer@nerdwatchtower.com</td>
+	    </tr>
+	    <tr>
+	      <td>John</td>
+	      <td>Doe</td>
+	      <td>john.doe@nerdwatchtower.com</td>
+	    </tr>
+	    <tr>
+	      <td>Jane</td>
+	      <td>Doe</td>
+	      <td>jane.doe@nerdwatchtower.com</td>
+	    </tr>
+	  </tbody>
+	</table>
+      </div>
+      <!-- Buttons -->
+      <div class="d-grid">
+	<button type="button" class="btn btn-outline-secondary btn-block m-3">You can't get rid of me</button>
+	<button type="button" class="btn btn-outline-danger btn-block d-none d-md-block m-3">Can you see me?</button>
+      </div>
     </main>
-      
   </body>
 </html>
