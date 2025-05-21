@@ -1,10 +1,10 @@
 * Declare variables for:
-- Your name (string).
-- Your current age (number).
-- Whether you enjoy coding (boolean).
+- Your name (string)
+- Your current age (number)
+- Whether you enjoy coding (boolean)
 * Use arithmetic operators to:
-- Add 1 to your current age.
-- Calculate the remainder when your new age is divided by 5.
-* Convert your age into a string and display it in the console.
-* Use a comparison operator to check if your age is greater than 20.
-* Log everything to the console with clear messages.
+- Add 1 to your current age
+- Calculate the remainder when divided by 5
+* Convert your age into a string
+* check if your age is greater than 20
+* Log everything to the console with clear messages
