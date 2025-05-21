@@ -1,10 +1,64 @@
-* Declare variables for:
-- Your name (string)
-- Your current age (number)
-- Whether you enjoy coding (boolean)
-* Use arithmetic operators to:
-- Add 1 to your current age
-- Calculate the remainder when divided by 5
-* Convert your age into a string
-* check if your age is greater than 20
-* Log everything to the console with clear messages
+* l6
+** challenge
+*** Declare variables for:
+   - Your name (string)
+   - Your current age (number)
+   - Whether you enjoy coding (boolean)
+*** Use arithmetic operators to:
+   - Add 1 to your current age
+   - Calculate the remainder when divided by 5
+*** Convert your age into a string
+*** check if your age is greater than 20
+*** Log everything to the console with clear messages
+
+
+* l7
+** practice
+*** small program
+   - declare temp
+   - temp > 75, log "it's a hot day!"
+   - temp > 70, log "it's a beautiful day!"
+   - temp < 69, log "it's a cool day."
+*** ticket checker
+   - ask for user's age
+   - uses if..else if
+     - age < 5, log "free entry!"
+     - age 5 - 12, log "youth ticket: $10"
+     - age 13 - 64, log "adult ticket: $20"
+     - age 65+, log "senior ticket: $15"
+   - VIP, log "VIP Access Granted"
+*** weather outfit checker
+   - create variable "weather"
+     - assign one value
+       - cloudy
+       - rainy
+       - snowy
+       - sunny
+       - windy
+   - use a switch statement
+     - cloudy: just a light jacket
+     - rainy: don't forget a raincoat
+     - snowy: bundle up!
+     - sunny: t-shirt and shorts all day!
+     - windy: hold on to your hat
+** final challege -- calculator
+   - four functions
+      - add
+      - sub
+      - *
+      - /
+   - calc function
+      - two numbers
+      - string representing operation
+      - switch statement for calc
+   - test
+
+* l8
+** practice
+*** for
+   --log 1-10
+   --if divisible by 2, log "even"
+** final challenge
+*** multiplication table
+   --logs a * table from 1 - 5
+   --display product of outer and inner loops

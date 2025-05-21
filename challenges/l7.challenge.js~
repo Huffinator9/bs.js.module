@@ -1,0 +1,10 @@
+// engage & apply -- simple if/else if/else practice
+let temp = 55
+
+if (temp > 75) {
+    console.log("It's a hot day!");
+} else if (temp > 70) {
+    console.log("It's still a hot day!");
+} else {
+    console.log("It's a beautiful day!");
+}
