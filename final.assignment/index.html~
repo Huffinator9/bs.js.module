@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link class="icon" rel="icon" href="assets/imgs/icon.wht.svg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newly Winged Event Center</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav>
+      <img class="logo" src="assets/imgs/logo.wht.svg" alt="Web Builders Logo"> 
+	<ul>
+	  <li><a href="index.html">Home</a></li>
+	  <li><a href="events.html">Events</a></li>
+	  <li><a href="menu.html">Menu</a></li>
+	  <li><a href="location.html">Location</a></li>
+	  <li><a href="contact.html">Contact Us</a></li>
+	</ul>
+      </nav>
+    </header>
+    <!-- Main -->
+    <main>
+      <section class="welcome">
+	<h1> Welcome to Newly Winged Event Center </h1>
+	<p> Your premier location for parties and get-togethers in San Antonio. </p>
+      </section>
+      <section class="welcome">
+	<h2> Upcoming Events </h2>
+	<div class="event-grid">
+	    <aside class="event">
+	      <a href='events#weeklies'><img src="assets/imgs/sbu.png" alt="smash bros weekly"></a>
+	      <h3> Smash Bros Weekly Bracket </h3>
+	      <p> Every Wed. Night </p>
+	    </aside>
+	    <aside class="event">
+	      <a href='events#weeklies'><img class="mtg-img" src="assets/imgs/mtg.card.back.png" alt="mtg draft"></a>
+	      <h3> MTG Draft Night </h3>
+	      <p> Every Fri. Night </p>
+	    </aside>
+	    <aside class="event">
+	      <a href='events#laser_tag'><img src="assets/imgs/laser.tag.png" alt="laser tag"></a>
+	      <h3> Laser Tag Tournament </h3>
+	      <p> Last Sat. of the Month </p>
+	    </aside>
+	</div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+      <p> Copyright &copy;2025 Newly Winged Web Builders </p>
+    </footer>
+  </body>
+</html>  

@@ -1,0 +1,76 @@
+* 0001.home
+** banner
+** about
+** welcome
+** featured events
+
+* 0010.events
+** daily
+   -- arcade
+   -- laser tag
+   -- mtg
+   -- switch
+** weekly
+   -- smash
+   -- mtg draft
+** monthly
+   -- laser tag
+   -- smash
+** misc
+   -- book your b-day // plan your event
+   -- charity drives
+   -- laser tag punch cards
+   
+* 0011.menu
+** apps
+   -- nachos
+      -- loaded
+      -- plain
+   -- wings
+      -- bone-in
+      -- boneless
+   -- chips & salsa
+** entrees & sides
+   -- burger
+      -- plain
+      -- cheese
+   -- pizza
+      -- pep
+      -- cheese
+      -- hawaiian
+      -- meat lovers
+      -- veggie
+   -- tenders
+   -- spuds
+** desserts
+   -- brownies
+   -- cupcakes
+   -- ice cream
+      -- milkshakes
+      -- umpqua
+   -- shaved ice
+** beverages
+   -- iced tea
+   -- italian soda // creamosa
+   -- coke
+   -- lemonade
+   -- root beer // floats
+   -- water
+* 0100.location
+** address
+   --empty plot in SA,TX
+   --map
+** hours
+   --m-f: 14-22
+   --sa-su: 12-00
+   --sabbath: closed
+   --calendar(table)
+** map
+   --google maps
+   
+* 0101.contact
+** form
+   -- name
+   -- email
+   -- message
+ 
