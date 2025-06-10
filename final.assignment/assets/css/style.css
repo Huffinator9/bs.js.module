@@ -115,8 +115,8 @@ iframe {
     margin-block: 15px;
     border-radius: 15px;
     border: 3px solid #680095 ;
-    background-color: #FFFFFF33;
-    backdrop-filter: blur(10px);
+    /*background-color: #FFFFFF33;
+    backdrop-filter: blur(10px);*/
     align-content: center;
 }
 .event img {
