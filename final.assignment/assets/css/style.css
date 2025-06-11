@@ -62,6 +62,9 @@ nav ul a {
 nav ul a:hover{
     border-bottom: 3px solid whitesmoke;
 }
+nav ul li img {
+    height: 35px;
+}
 section ul {
     list-style: none; /* remove style */
     height: 100%;
@@ -136,6 +139,17 @@ iframe {
 }
 .Sabbath {
     background: #FF000088;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
 }
 .welcome{
     background-color: #FFFFFF33;
