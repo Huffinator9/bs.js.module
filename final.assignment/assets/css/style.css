@@ -137,6 +137,9 @@ iframe {
     margin-right: auto;
     width: 50%;
 }
+.menu-button {
+    display: none;
+}
 .Sabbath {
     background: #FF000088;
 }
@@ -168,6 +171,12 @@ iframe {
     table img {
 	zoom: 50%;
     }
+    .hideOnMobile {
+	display: none;
+    }
+    .menu-button {
+	display: block;
+    }
 }
 @media screen and (max-width: 500px) {
     table, th, td {
@@ -175,5 +184,11 @@ iframe {
     }
     table img {
 	zoom: 25%;
+    }
+    .hideOnMobile {
+	display: none;
+    }
+    .menu-button {
+	display: block;
     }
 }
