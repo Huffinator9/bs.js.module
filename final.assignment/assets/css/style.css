@@ -127,6 +127,48 @@ iframe {
     border-radius: 15px;
     padding-top: 10px;
 }
+.faq {
+    width: 90%;
+    max-width: 1000px;
+    margin: 2rem auto;
+}
+.faq-item {
+    background-color: #FFFFFF33;
+    backdrop-filter: blur(10px);
+    border: 3px solid #680095;
+    border-radius: 15px;
+    margin-inline: auto;
+    margin-block: 20px;
+    width: 90%;
+}
+.faq-item-header {
+    min-height: 3.5rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+.faq-item-header::after {
+    content: "\002B";
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+}
+.faq-item-header.active::after {
+    content: "\2212";
+}
+.faq-item-body {
+    /* display: none; */
+    padding: 1rem;
+    line-height: 1.5rem;
+    border-top: 3px solid #680095;
+    border-image: linear-gradient(to right, transparent, #680095, transparent) 1;
+}
+.faq-item-body.active + .faq-item-body {
+    display: block;
+}
 .logo {
     margin-right: auto;
     width: 150px;

@@ -9,3 +9,10 @@ function hideSidebar (){
 function givesendgo (){
     document.location='https://givesendgo.com/ilts4huffpint3/'
 }
+
+const faqItemHeaders = document.querySelectorAll(".faq-item-header");
+faqItemHeaders.forEach(faqItemHeader => {
+    faqItemHeader.addEventListener("click", event => {
+	faqItemHeader.classList.toggle("active");
+    }); 
+});
